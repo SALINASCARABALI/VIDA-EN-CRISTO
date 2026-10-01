@@ -1,0 +1,52 @@
+.titulo {
+    text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font: size 50px;;
+  font-weight: bold;
+ 
+}
+.carrusel {
+   background: linear-gradient(to right, royalblue, lightblue);
+text-align:center;
+     width: 800px;
+     height: 160px;
+      background: linear-gradient(to right, royalblue, lightblue);
+     border: 5px solid royalblue;
+     border-radius: 20px;
+     font-size: 100%;
+}
+
+.caja  {
+     text-align:center;
+     width: 800px;
+     height: 160px;
+      background: linear-gradient(to right, royalblue, lightblue);
+     border: 5px solid royalblue;
+     border-radius: 20px;
+     font-size: 100%;
+}
+.caja1 {
+   text-align:left;
+     width: 90%;
+     max-width:  800px;;
+     height: 160px;
+      background: linear-gradient(to right, royalblue, lightblue);
+     border: 5px solid royalblue;
+     border-radius: 20px;
+     font-size: 100%;
+      margin: 0 0 0 10px;
+}
+li {text-align: justify;}
+ul{text-align: justify;
+
+}
+  body {
+    background-image: url("img/playa.jpg");
+     min-height: 100vh;
+  }
+hr { 
+  border:none;
+  background-color: rgb(65, 83, 54);
+  height: 6px;
+}
+    
