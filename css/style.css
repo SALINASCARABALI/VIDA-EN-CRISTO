@@ -41,8 +41,18 @@ ul{text-align: justify;
 
 }
   body {
-    background-image: url("img/playa.jpg");
-     min-height: 100vh;
+  background-image:
+    linear-gradient(to bottom,
+      #1e3a5f 0%,
+      transparent 15%,
+      transparent 85%,
+      #1e3a5f 100%),
+      url("../img/mar.jpg");
+   background-size:100% 700px;   /* alto de cada repetición */
+  background-repeat:repeat-y;   /* se repite hacia abajo */
+  background-position:top center;
+  min-height:100vh;
+     
   }
 hr { 
   border:none;
